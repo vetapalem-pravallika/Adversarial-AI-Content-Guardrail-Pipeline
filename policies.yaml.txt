@@ -1,0 +1,13 @@
+# policies.yaml
+thresholds:
+  auto_action: 8        # CVRI or severity above this triggers Auto Action
+  human_review: 4       # CVRI or severity above this triggers Human Review
+
+weights:
+  adversarial_multiplier: 1.5   # Extra weight if comment is adversarial
+
+categories:
+  - Harassment
+  - Hate Speech
+  - Promotion of Self-Harm
+  - Misinformation
